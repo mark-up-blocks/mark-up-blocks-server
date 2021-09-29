@@ -6,6 +6,7 @@ const cors = require("cors");
 const logger = require("morgan");
 
 const indexRouter = require("./routes/index");
+const { handleNotFound, handleDefaultError } = require("./errorHandler");
 
 const app = express();
 
@@ -19,5 +20,8 @@ app.use(logger("dev"));
 app.use(express.json());
 
 app.use("/", indexRouter);
+
+app.use(handleNotFound);
+app.use(handleDefaultError);
 
 module.exports = app;
