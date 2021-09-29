@@ -4,7 +4,9 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "dev": "NODE_ENV=development nodemon ./bin/www"
+    "dev": "NODE_ENV=development nodemon ./bin/www",
+    "prepare": "husky install",
+    "pre-commit": "lint-staged"
   },
   "repository": {
     "type": "git",
@@ -16,7 +18,34 @@
     "morgan": "~1.9.1"
   },
   "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.2",
+    "husky": "^7.0.0",
+    "lint-staged": "^11.1.2",
     "nodemon": "^2.0.12"
+  },
+  "eslintConfig": {
+    "extends": "airbnb-base/legacy",
+    "env": {
+      "es2021": true,
+      "node": true
+    },
+    "rules": {
+      "no-console": "off",
+      "quotes": [
+        "error",
+        "double"
+      ]
+    },
+    "parserOptions": {
+      "sourceType": "module"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix"
+    ]
   },
   "engines": {
     "node": "14.17.0",
