@@ -1,13 +1,22 @@
-const express = require('express');
-const logger = require('morgan');
+require("dotenv").config();
 
-const indexRouter = require('./routes/index');
+const express = require("express");
+const cors = require("cors");
+const logger = require("morgan");
+
+const indexRouter = require("./routes/index");
 
 const app = express();
 
-app.use(logger('dev'));
+const corsOptions = {
+  origin: process.env.CLIENT_URL,
+  optionsSuccessStatus: 200
+};
+
+app.use(cors(corsOptions));
+app.use(logger("dev"));
 app.use(express.json());
 
-app.use('/', indexRouter);
+app.use("/", indexRouter);
 
 module.exports = app;
