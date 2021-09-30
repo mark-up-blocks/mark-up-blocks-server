@@ -1,0 +1,64 @@
+{
+  "name": "mark-up-blocks-server",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "NODE_ENV=development nodemon ./bin/www",
+    "prepare": "husky install",
+    "pre-commit": "lint-staged"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mark-up-blocks/mark-up-blocks-server.git"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "dotenv": "^10.0.0",
+    "express": "~4.16.1",
+    "mongodb": "^4.1.2",
+    "mongoose": "^6.0.8",
+    "morgan": "~1.9.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.2",
+    "husky": "^7.0.0",
+    "lint-staged": "^11.1.2",
+    "nodemon": "^2.0.12"
+  },
+  "eslintConfig": {
+    "extends": "airbnb-base/legacy",
+    "env": {
+      "es2021": true,
+      "node": true
+    },
+    "rules": {
+      "no-console": "off",
+      "no-unused-vars": [
+        "error",
+        {
+          "argsIgnorePattern": "^_"
+        }
+      ],
+      "quotes": [
+        "error",
+        "double"
+      ]
+    },
+    "parserOptions": {
+      "sourceType": "module"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix"
+    ]
+  },
+  "engines": {
+    "node": "14.17.0",
+    "npm": "6.14.15"
+  }
+}
