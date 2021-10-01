@@ -36,7 +36,15 @@
       "node": true
     },
     "rules": {
-      "no-console": "off",
+      "no-console": [
+        "error",
+        {
+          "allow": [
+            "warn",
+            "error"
+          ]
+        }
+      ],
       "no-underscore-dangle": [
         "error",
         {

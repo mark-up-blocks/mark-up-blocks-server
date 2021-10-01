@@ -9,12 +9,12 @@ const blockTreeRef = {
 
 const blockTreeSchema = new mongoose.Schema({
   block: tagBlockRef,
-  children: [blockTreeRef]
+  childTrees: [blockTreeRef]
 });
 
 function populateNested(next) {
   this.populate({ path: "block", model: "TagBlock" })
-    .populate("children");
+    .populate("childTrees");
   next();
 }
 
