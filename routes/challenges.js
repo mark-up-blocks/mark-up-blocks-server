@@ -16,7 +16,7 @@ router.get("/:id", async (req, res, next) => {
 
     const challenge = await Challenge.findById(id)
       .populate({
-        path: "tagBlocks",
+        path: "tagBlocks.block",
         model: "TagBlock"
       })
       .populate({
