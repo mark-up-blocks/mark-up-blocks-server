@@ -8,7 +8,13 @@ const challengeSchema = new mongoose.Schema({
     type: String,
     required: true
   },
-  tagBlocks: [{ block: tagBlockRef }],
+  tagBlocks: [{
+    block: tagBlockRef,
+    isElementCluster: {
+      type: Boolean,
+      default: false
+    }
+  }],
   boilerplate: blockTreeRef,
   answer: blockTreeRef
 });
