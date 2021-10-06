@@ -9,8 +9,12 @@ const challengeSchema = new mongoose.Schema({
     required: true
   },
   tagBlocks: [{
+    _id: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "Challenge"
+    },
     block: tagBlockRef,
-    isElementCluster: {
+    isChallenge: {
       type: Boolean,
       default: false
     }
