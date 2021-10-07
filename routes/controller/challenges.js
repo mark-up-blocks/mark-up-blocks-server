@@ -1,15 +1,14 @@
-const createError = require("http-errors");
 const mongoose = require("mongoose");
+const createError = require("http-errors");
 
-const RootChallenge = require("../models/RootChallenge");
-const Challenge = require("../models/Challenge");
+const service = require("../services/challenges");
 
-async function getRootChallengeList(req, res, next) {
+async function getRootChallenges(req, res, next) {
   try {
-    const challenges = await RootChallenge.find().lean();
+    const rootChallenges = await service.getRootChallenges();
 
     res.status(200);
-    res.json({ challenges });
+    res.json({ rootChallenges });
   } catch (err) {
     next(err);
   }
@@ -23,18 +22,7 @@ async function getChallengeById(req, res, next) {
       throw createError(400, "invalid challenge id");
     }
 
-    const challenge = await Challenge.findById(id)
-      .populate([
-        {
-          path: "tagBlocks.block",
-          model: "TagBlock"
-        },
-        {
-          path: "boilerplate answer",
-          model: "BlockTree"
-        }
-      ])
-      .lean();
+    const challenge = await service.getChallengeById(id);
 
     if (!challenge) {
       throw createError(404, "challenge not found");
@@ -47,4 +35,7 @@ async function getChallengeById(req, res, next) {
   }
 }
 
-module.exports = { getRootChallengeList, getChallengeById };
+module.exports = {
+  getRootChallenges,
+  getChallengeById
+};

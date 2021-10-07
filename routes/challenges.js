@@ -4,7 +4,7 @@ const controller = require("./controller/challenges");
 
 const router = express.Router();
 
-router.get("/", controller.getRootChallengeList);
+router.get("/", controller.getRootChallenges);
 router.get("/:id", controller.getChallengeById);
 
 module.exports = router;
