@@ -9,7 +9,7 @@ const stageInfoOption = {
 
     const childChallenges = [];
 
-    doc.tagBlocks.forEach(async (block) => {
+    doc.tagBlocks.forEach((block) => {
       if (block.isChallenge) {
         childChallenges.push(block._id);
       }

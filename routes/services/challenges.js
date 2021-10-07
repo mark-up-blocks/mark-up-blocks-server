@@ -4,10 +4,15 @@ const Challenge = require("../../models/Challenge");
 const { stageInfoOption } = require("../../config/populateOptions");
 
 async function populateChildChallenges(rootChallenge) {
-  const populated = await Challenge.populate(rootChallenge, { ...stageInfoOption, path: "childChallenges" });
-  const childChallenges = await Promise.all(populated.childChallenges.map((child) => {
-    return child.childChallenges.length ? populateChildChallenges(child) : child;
-  }));
+  const populated = await Challenge.populate(
+    rootChallenge,
+    { ...stageInfoOption, path: "childChallenges" }
+  );
+  const childChallenges = await Promise.all(
+    populated.childChallenges.map((child) => {
+      return child.childChallenges.length ? populateChildChallenges(child) : child;
+    })
+  );
 
   return { ...rootChallenge, childChallenges };
 }

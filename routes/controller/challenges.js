@@ -5,10 +5,10 @@ const service = require("../services/challenges");
 
 async function getRootChallenges(req, res, next) {
   try {
-    const rootChallenges = await service.getRootChallenges();
+    const challenges = await service.getRootChallenges();
 
     res.status(200);
-    res.json({ rootChallenges });
+    res.json({ challenges });
   } catch (err) {
     next(err);
   }
