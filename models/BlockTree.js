@@ -8,8 +8,19 @@ const blockTreeRef = {
 };
 
 const blockTreeSchema = new mongoose.Schema({
+  title: {
+    type: String,
+    required: true
+  },
+  isSubChallenge: {
+    type: Boolean,
+    default: false
+  },
   block: tagBlockRef,
-  childTrees: [blockTreeRef]
+  childTrees: {
+    type: [blockTreeRef],
+    default: []
+  }
 });
 
 function populateNested(next) {

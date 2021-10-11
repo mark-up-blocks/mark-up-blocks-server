@@ -1,26 +1,13 @@
 const mongoose = require("mongoose");
 
-const { tagBlockRef } = require("./TagBlock");
 const { blockTreeRef } = require("./BlockTree");
 
 const challengeSchema = new mongoose.Schema({
-  title: {
+  name: {
     type: String,
     required: true
   },
-  tagBlocks: [{
-    _id: {
-      type: mongoose.Schema.Types.ObjectId,
-      ref: "Challenge"
-    },
-    block: tagBlockRef,
-    isChallenge: {
-      type: Boolean,
-      default: false
-    }
-  }],
-  boilerplate: blockTreeRef,
-  answer: blockTreeRef
+  elementTree: blockTreeRef
 });
 
 module.exports = mongoose.model("Challenge", challengeSchema);
