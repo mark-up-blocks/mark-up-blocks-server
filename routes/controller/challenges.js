@@ -3,9 +3,9 @@ const createError = require("http-errors");
 
 const service = require("../services/challenges");
 
-async function getRootChallenges(req, res, next) {
+async function getChallenges(req, res, next) {
   try {
-    const challenges = await service.getRootChallenges();
+    const challenges = await service.getChallenges();
 
     res.status(200);
     res.json({ challenges });
@@ -36,6 +36,6 @@ async function getChallengeById(req, res, next) {
 }
 
 module.exports = {
-  getRootChallenges,
+  getChallenges,
   getChallengeById
 };

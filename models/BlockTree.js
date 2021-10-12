@@ -4,12 +4,24 @@ const { tagBlockRef } = require("./TagBlock");
 
 const blockTreeRef = {
   type: mongoose.Schema.Types.ObjectId,
-  ref: "BlockTree"
+  ref: "BlockTree",
+  required: true
 };
 
 const blockTreeSchema = new mongoose.Schema({
+  title: {
+    type: String,
+    required: true
+  },
+  isSubChallenge: {
+    type: Boolean,
+    default: false
+  },
   block: tagBlockRef,
-  childTrees: [blockTreeRef]
+  childTrees: {
+    type: [blockTreeRef],
+    default: []
+  }
 });
 
 function populateNested(next) {
