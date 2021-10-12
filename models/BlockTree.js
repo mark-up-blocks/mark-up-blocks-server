@@ -4,7 +4,8 @@ const { tagBlockRef } = require("./TagBlock");
 
 const blockTreeRef = {
   type: mongoose.Schema.Types.ObjectId,
-  ref: "BlockTree"
+  ref: "BlockTree",
+  required: true
 };
 
 const blockTreeSchema = new mongoose.Schema({
