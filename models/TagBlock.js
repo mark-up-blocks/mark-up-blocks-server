@@ -1,8 +1,11 @@
 const mongoose = require("mongoose");
 
+const { validateTagBlockProperty } = require("../helpers/validate");
+
 const tagBlockRef = {
   type: mongoose.Schema.Types.ObjectId,
-  ref: "TagBlock"
+  ref: "TagBlock",
+  required: true
 };
 
 const tagBlockSchema = new mongoose.Schema({
@@ -14,7 +17,13 @@ const tagBlockSchema = new mongoose.Schema({
     type: Boolean,
     default: false
   },
-  property: {}
+  property: {
+    type: {},
+    validate: {
+      validator: validateTagBlockProperty,
+      message: "TagBlock's property field should be an object of string"
+    }
+  }
 });
 
 module.exports = mongoose.model("TagBlock", tagBlockSchema);

@@ -1,5 +1,8 @@
 require("dotenv").config();
-require("./config/db");
+
+const dbPath = process.env.NODE_ENV === "test" ? "./spec/db" : "./config/db";
+
+require(dbPath);
 
 const express = require("express");
 const cors = require("cors");
