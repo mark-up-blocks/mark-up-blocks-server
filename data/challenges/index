@@ -1,0 +1,16 @@
+{
+  "challenges": [
+    {
+      "_id": "617943dafbdeda83793cf176",
+      "name": "google",
+      "elementTree": "617943d0fbdeda83793cf0b0",
+      "__v": 0
+    },
+    {
+      "_id": "617943f0fbdeda83793cf2d9",
+      "name": "googleForm",
+      "elementTree": "617943dffbdeda83793cf17b",
+      "__v": 0
+    }
+  ]
+}

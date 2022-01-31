@@ -1,0 +1,1539 @@
+{
+  "_id": "617943f0fbdeda83793cf2d9",
+  "name": "googleForm",
+  "elementTree": {
+    "_id": "617943dffbdeda83793cf17b",
+    "title": "mainForm",
+    "isSubChallenge": true,
+    "block": {
+      "_id": "617943dffbdeda83793cf179",
+      "tagName": "form",
+      "isContainer": true,
+      "property": {
+        "style": {
+          "maxWidth": "90vw",
+          "width": "640px",
+          "margin": "auto"
+        }
+      },
+      "__v": 0
+    },
+    "childTrees": [
+      {
+        "_id": "617943dffbdeda83793cf180",
+        "title": "header",
+        "isSubChallenge": true,
+        "block": {
+          "_id": "617943dffbdeda83793cf17e",
+          "tagName": "header",
+          "isContainer": true,
+          "property": {
+            "style": {
+              "marginTop": "12px",
+              "backgroundColor": "#fff",
+              "border": "1px solid #dadce0",
+              "borderRadius": "8px",
+              "marginBottom": "12px",
+              "padding": "24px",
+              "paddingTop": "22px",
+              "position": "relative"
+            }
+          },
+          "__v": 0
+        },
+        "childTrees": [
+          {
+            "_id": "617943e0fbdeda83793cf186",
+            "title": "headerBorderLine",
+            "isSubChallenge": false,
+            "block": {
+              "_id": "617943e0fbdeda83793cf184",
+              "tagName": "div",
+              "isContainer": false,
+              "property": {
+                "style": {
+                  "backgroundColor": "rgb(158, 158, 158)",
+                  "color": "rgba(0, 0, 0, 1)",
+                  "borderTopLeftRadius": "8px",
+                  "borderTopRightRadius": "8px",
+                  "height": "10px",
+                  "left": "-1px",
+                  "position": "absolute",
+                  "top": "-1px",
+                  "width": "calc(100% + 2px)"
+                }
+              },
+              "__v": 0
+            },
+            "childTrees": [],
+            "__v": 0
+          },
+          {
+            "_id": "617943e0fbdeda83793cf18c",
+            "title": "headerTitle",
+            "isSubChallenge": false,
+            "block": {
+              "_id": "617943e0fbdeda83793cf18a",
+              "tagName": "h1",
+              "isContainer": false,
+              "property": {
+                "text": "Google Form Sample",
+                "style": {
+                  "display": "block",
+                  "color": "#202124",
+                  "fontSize": "32px",
+                  "lineHeight": "135%",
+                  "fontFamily": "'Google Sans', Roboto, Helvetica, Arial, sans-serif"
+                }
+              },
+              "__v": 0
+            },
+            "childTrees": [],
+            "__v": 0
+          },
+          {
+            "_id": "617943e0fbdeda83793cf192",
+            "title": "headerDescription",
+            "isSubChallenge": false,
+            "block": {
+              "_id": "617943e0fbdeda83793cf190",
+              "tagName": "p",
+              "isContainer": false,
+              "property": {
+                "text": "Here are all of the question types",
+                "style": {
+                  "color": "#202124",
+                  "fontWeight": "400",
+                  "fontFamily": "Roboto, Arial, sans-serif",
+                  "fontSize": "14px",
+                  "letterSpacing": ".2px",
+                  "lineHeight": "20px",
+                  "marginTop": "12px"
+                }
+              },
+              "__v": 0
+            },
+            "childTrees": [],
+            "__v": 0
+          }
+        ],
+        "__v": 0
+      },
+      {
+        "_id": "617943e1fbdeda83793cf198",
+        "title": "textQuestion",
+        "isSubChallenge": true,
+        "block": {
+          "_id": "617943e1fbdeda83793cf196",
+          "tagName": "div",
+          "isContainer": true,
+          "property": {
+            "style": {
+              "backgroundColor": "#fff",
+              "border": "1px solid #dadce0",
+              "borderRadius": "8px",
+              "marginBottom": "12px",
+              "padding": "24px",
+              "wordWrap": "break-word"
+            }
+          },
+          "__v": 0
+        },
+        "childTrees": [
+          {
+            "_id": "617943e1fbdeda83793cf19e",
+            "title": "descriptionContainer",
+            "isSubChallenge": false,
+            "block": {
+              "_id": "617943e1fbdeda83793cf19c",
+              "tagName": "div",
+              "isContainer": false,
+              "property": {
+                "style": {
+                  "marginBottom": "16px"
+                }
+              },
+              "__v": 0
+            },
+            "childTrees": [
+              {
+                "_id": "617943e1fbdeda83793cf1a4",
+                "title": "textQuestionHeading",
+                "isSubChallenge": false,
+                "block": {
+                  "_id": "617943e1fbdeda83793cf1a2",
+                  "tagName": "h5",
+                  "isContainer": false,
+                  "property": {
+                    "text": "This is a text question",
+                    "style": {
+                      "fontSize": "16px",
+                      "letterSpacing": ".1px",
+                      "lineHeight": "24px",
+                      "color": "#202124",
+                      "fontWeight": "400",
+                      "width": "100%",
+                      "wordBreak": "break-word",
+                      "fontFamily": "'Google Sans', Roboto, Helvetica, Arial, sans-serif"
+                    }
+                  },
+                  "__v": 0
+                },
+                "childTrees": [],
+                "__v": 0
+              },
+              {
+                "_id": "617943e2fbdeda83793cf1aa",
+                "title": "textQuestionDescription",
+                "isSubChallenge": false,
+                "block": {
+                  "_id": "617943e2fbdeda83793cf1a8",
+                  "tagName": "h5",
+                  "isContainer": false,
+                  "property": {
+                    "text": "Limited space for typed response. Great space for name of respondee or short answer",
+                    "style": {
+                      "fontFamily": "Roboto, Arial, sans-serif",
+                      "fontSize": "12px",
+                      "fontWeight": "400",
+                      "letterSpacing": ".3px",
+                      "color": "#202124",
+                      "lineHeight": "135%",
+                      "marginTop": "4px",
+                      "width": "100%"
+                    }
+                  },
+                  "__v": 0
+                },
+                "childTrees": [],
+                "__v": 0
+              }
+            ],
+            "__v": 0
+          },
+          {
+            "_id": "617943e2fbdeda83793cf1b0",
+            "title": "inputContainer",
+            "isSubChallenge": false,
+            "block": {
+              "_id": "617943e2fbdeda83793cf1ae",
+              "tagName": "div",
+              "isContainer": true,
+              "property": {
+                "style": {
+                  "color": "#202124",
+                  "height": "40px",
+                  "position": "relative",
+                  "top": "14px",
+                  "width": "295px",
+                  "paddingBottom": "8px"
+                }
+              },
+              "__v": 0
+            },
+            "childTrees": [
+              {
+                "_id": "617943e3fbdeda83793cf1b6",
+                "title": "textQuestionInput",
+                "isSubChallenge": false,
+                "block": {
+                  "_id": "617943e2fbdeda83793cf1b4",
+                  "tagName": "input",
+                  "isContainer": false,
+                  "property": {
+                    "placeholder": "내 답변",
+                    "style": {
+                      "fontFamily": "Roboto, Arial, sans-serif",
+                      "fontSize": "14px",
+                      "fontWeight": "400",
+                      "letterSpacing": ".2px",
+                      "lineHeight": "20px",
+                      "color": "#202124",
+                      "outline": "none",
+                      "border": "none"
+                    }
+                  },
+                  "__v": 0
+                },
+                "childTrees": [],
+                "__v": 0
+              },
+              {
+                "_id": "617943e3fbdeda83793cf1bc",
+                "title": "textQuestionInputBorder",
+                "isSubChallenge": false,
+                "block": {
+                  "_id": "617943e3fbdeda83793cf1ba",
+                  "tagName": "div",
+                  "isContainer": false,
+                  "property": {
+                    "style": {
+                      "backgroundColor": "rgba(0,0,0,0.12)",
+                      "height": "1px",
+                      "width": "295px",
+                      "margin": "0",
+                      "padding": "0",
+                      "position": "absolute"
+                    }
+                  },
+                  "__v": 0
+                },
+                "childTrees": [],
+                "__v": 0
+              }
+            ],
+            "__v": 0
+          }
+        ],
+        "__v": 0
+      },
+      {
+        "_id": "617943e3fbdeda83793cf1c0",
+        "title": "paragraphQuestion",
+        "isSubChallenge": true,
+        "block": {
+          "_id": "617943e1fbdeda83793cf196",
+          "tagName": "div",
+          "isContainer": true,
+          "property": {
+            "style": {
+              "backgroundColor": "#fff",
+              "border": "1px solid #dadce0",
+              "borderRadius": "8px",
+              "marginBottom": "12px",
+              "padding": "24px",
+              "wordWrap": "break-word"
+            }
+          },
+          "__v": 0
+        },
+        "childTrees": [
+          {
+            "_id": "617943e3fbdeda83793cf1c4",
+            "title": "descriptionContainer",
+            "isSubChallenge": false,
+            "block": {
+              "_id": "617943e1fbdeda83793cf19c",
+              "tagName": "div",
+              "isContainer": false,
+              "property": {
+                "style": {
+                  "marginBottom": "16px"
+                }
+              },
+              "__v": 0
+            },
+            "childTrees": [
+              {
+                "_id": "617943e4fbdeda83793cf1ca",
+                "title": "paragraphQuestionHeading",
+                "isSubChallenge": false,
+                "block": {
+                  "_id": "617943e4fbdeda83793cf1c8",
+                  "tagName": "h5",
+                  "isContainer": false,
+                  "property": {
+                    "text": "This is a paragraph question",
+                    "style": {
+                      "fontSize": "16px",
+                      "letterSpacing": ".1px",
+                      "lineHeight": "24px",
+                      "color": "#202124",
+                      "fontWeight": "400",
+                      "width": "100%",
+                      "wordBreak": "break-word",
+                      "fontFamily": "'Google Sans', Roboto, Helvetica, Arial, sans-serif"
+                    }
+                  },
+                  "__v": 0
+                },
+                "childTrees": [],
+                "__v": 0
+              },
+              {
+                "_id": "617943e4fbdeda83793cf1d0",
+                "title": "paragraphQuestionDescription",
+                "isSubChallenge": false,
+                "block": {
+                  "_id": "617943e4fbdeda83793cf1ce",
+                  "tagName": "h5",
+                  "isContainer": false,
+                  "property": {
+                    "text": "Extended space for longer answer",
+                    "style": {
+                      "fontFamily": "Roboto, Arial, sans-serif",
+                      "fontSize": "12px",
+                      "fontWeight": "400",
+                      "letterSpacing": ".3px",
+                      "color": "#202124",
+                      "lineHeight": "135%",
+                      "marginTop": "4px",
+                      "width": "100%"
+                    }
+                  },
+                  "__v": 0
+                },
+                "childTrees": [],
+                "__v": 0
+              }
+            ],
+            "__v": 0
+          },
+          {
+            "_id": "617943e4fbdeda83793cf1d6",
+            "title": "paragraphContainer",
+            "isSubChallenge": false,
+            "block": {
+              "_id": "617943e4fbdeda83793cf1d4",
+              "tagName": "div",
+              "isContainer": true,
+              "property": {
+                "style": {
+                  "color": "#202124",
+                  "height": "40px",
+                  "position": "relative",
+                  "top": "14px",
+                  "width": "590px",
+                  "paddingBottom": "8px"
+                }
+              },
+              "__v": 0
+            },
+            "childTrees": [
+              {
+                "_id": "617943e5fbdeda83793cf1dc",
+                "title": "paragraphQuestionInput",
+                "isSubChallenge": false,
+                "block": {
+                  "_id": "617943e5fbdeda83793cf1da",
+                  "tagName": "textarea",
+                  "isContainer": false,
+                  "property": {
+                    "placeholder": "내 답변",
+                    "style": {
+                      "fontFamily": "Roboto, Arial, sans-serif",
+                      "fontSize": "14px",
+                      "fontWeight": "400",
+                      "letterSpacing": ".2px",
+                      "lineHeight": "20px",
+                      "height": "24px",
+                      "color": "#202124",
+                      "outline": "none",
+                      "padding": "0",
+                      "border": "none",
+                      "resize": "none"
+                    }
+                  },
+                  "__v": 0
+                },
+                "childTrees": [],
+                "__v": 0
+              },
+              {
+                "_id": "617943e5fbdeda83793cf1e2",
+                "title": "paragraphQuestionInputBorder",
+                "isSubChallenge": false,
+                "block": {
+                  "_id": "617943e5fbdeda83793cf1e0",
+                  "tagName": "div",
+                  "isContainer": false,
+                  "property": {
+                    "style": {
+                      "backgroundColor": "rgba(0,0,0,0.12)",
+                      "height": "1px",
+                      "width": "590px",
+                      "margin": "0",
+                      "padding": "0",
+                      "position": "absolute"
+                    }
+                  },
+                  "__v": 0
+                },
+                "childTrees": [],
+                "__v": 0
+              }
+            ],
+            "__v": 0
+          }
+        ],
+        "__v": 0
+      },
+      {
+        "_id": "617943e5fbdeda83793cf1e6",
+        "title": "multipleChoiceQuestion",
+        "isSubChallenge": true,
+        "block": {
+          "_id": "617943e1fbdeda83793cf196",
+          "tagName": "div",
+          "isContainer": true,
+          "property": {
+            "style": {
+              "backgroundColor": "#fff",
+              "border": "1px solid #dadce0",
+              "borderRadius": "8px",
+              "marginBottom": "12px",
+              "padding": "24px",
+              "wordWrap": "break-word"
+            }
+          },
+          "__v": 0
+        },
+        "childTrees": [
+          {
+            "_id": "617943e6fbdeda83793cf1ea",
+            "title": "descriptionContainer",
+            "isSubChallenge": false,
+            "block": {
+              "_id": "617943e1fbdeda83793cf19c",
+              "tagName": "div",
+              "isContainer": false,
+              "property": {
+                "style": {
+                  "marginBottom": "16px"
+                }
+              },
+              "__v": 0
+            },
+            "childTrees": [
+              {
+                "_id": "617943e6fbdeda83793cf1f0",
+                "title": "multipleChoiceQuestionHeading",
+                "isSubChallenge": false,
+                "block": {
+                  "_id": "617943e6fbdeda83793cf1ee",
+                  "tagName": "h5",
+                  "isContainer": false,
+                  "property": {
+                    "text": "This is a multiple choice question",
+                    "style": {
+                      "fontSize": "16px",
+                      "letterSpacing": ".1px",
+                      "lineHeight": "24px",
+                      "color": "#202124",
+                      "fontWeight": "400",
+                      "width": "100%",
+                      "wordBreak": "break-word",
+                      "fontFamily": "'Google Sans', Roboto, Helvetica, Arial, sans-serif"
+                    }
+                  },
+                  "__v": 0
+                },
+                "childTrees": [],
+                "__v": 0
+              },
+              {
+                "_id": "617943e6fbdeda83793cf1f6",
+                "title": "multipleChoiceQuestionDescription",
+                "isSubChallenge": false,
+                "block": {
+                  "_id": "617943e6fbdeda83793cf1f4",
+                  "tagName": "h5",
+                  "isContainer": false,
+                  "property": {
+                    "text": "May click one of the choices or respond to \"other\"",
+                    "style": {
+                      "fontFamily": "Roboto, Arial, sans-serif",
+                      "fontSize": "12px",
+                      "fontWeight": "400",
+                      "letterSpacing": ".3px",
+                      "color": "#202124",
+                      "lineHeight": "135%",
+                      "marginTop": "4px",
+                      "width": "100%"
+                    }
+                  },
+                  "__v": 0
+                },
+                "childTrees": [],
+                "__v": 0
+              }
+            ],
+            "__v": 0
+          },
+          {
+            "_id": "617943e7fbdeda83793cf1fc",
+            "title": "radiosContainer",
+            "isSubChallenge": true,
+            "block": {
+              "_id": "617943e7fbdeda83793cf1fa",
+              "tagName": "div",
+              "isContainer": true,
+              "property": {
+                "style": {
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "justifyContent": "space-between",
+                  "height": "122px"
+                }
+              },
+              "__v": 0
+            },
+            "childTrees": [
+              {
+                "_id": "617943e7fbdeda83793cf20a",
+                "title": "multipleChoice1",
+                "isSubChallenge": true,
+                "block": {
+                  "_id": "617943e7fbdeda83793cf204",
+                  "tagName": "div",
+                  "isContainer": false,
+                  "property": {
+                    "style": {
+                      "display": "flex",
+                      "alignItems": "center",
+                      "padding": "0.5em 0.5em 0.5em 0"
+                    }
+                  },
+                  "__v": 0
+                },
+                "childTrees": [
+                  {
+                    "_id": "617943e7fbdeda83793cf219",
+                    "title": "radio",
+                    "isSubChallenge": false,
+                    "block": {
+                      "_id": "617943e7fbdeda83793cf213",
+                      "tagName": "input",
+                      "isContainer": false,
+                      "property": {
+                        "type": "radio",
+                        "id": "multipleChoice1",
+                        "name": "multiple-choice",
+                        "style": {
+                          "bottom": "0",
+                          "height": "20px",
+                          "left": "0",
+                          "right": "0",
+                          "top": "0",
+                          "width": "20px"
+                        }
+                      },
+                      "__v": 0
+                    },
+                    "childTrees": [],
+                    "__v": 0
+                  },
+                  {
+                    "_id": "617943e8fbdeda83793cf22b",
+                    "title": "label",
+                    "isSubChallenge": false,
+                    "block": {
+                      "_id": "617943e8fbdeda83793cf225",
+                      "tagName": "label",
+                      "isContainer": false,
+                      "property": {
+                        "text": "multipleChoice1",
+                        "htmlFor": "multipleChoice1",
+                        "style": {
+                          "display": "block",
+                          "margin": "0 1rem 0 0.75rem",
+                          "fontFamily": "Roboto, Arial, sans-serif",
+                          "fontSize": "14px",
+                          "fontWeight": "400",
+                          "letterSpacing": ".2px",
+                          "lineHeight": "20px",
+                          "color": "#202124",
+                          "minWidth": "1px"
+                        }
+                      },
+                      "__v": 0
+                    },
+                    "childTrees": [],
+                    "__v": 0
+                  }
+                ],
+                "__v": 0
+              },
+              {
+                "_id": "617943e7fbdeda83793cf20c",
+                "title": "multipleChoice2",
+                "isSubChallenge": true,
+                "block": {
+                  "_id": "617943e7fbdeda83793cf206",
+                  "tagName": "div",
+                  "isContainer": false,
+                  "property": {
+                    "style": {
+                      "display": "flex",
+                      "alignItems": "center",
+                      "padding": "0.5em 0.5em 0.5em 0"
+                    }
+                  },
+                  "__v": 0
+                },
+                "childTrees": [
+                  {
+                    "_id": "617943e7fbdeda83793cf21b",
+                    "title": "radio",
+                    "isSubChallenge": false,
+                    "block": {
+                      "_id": "617943e7fbdeda83793cf215",
+                      "tagName": "input",
+                      "isContainer": false,
+                      "property": {
+                        "type": "radio",
+                        "id": "multipleChoice2",
+                        "name": "multiple-choice",
+                        "style": {
+                          "bottom": "0",
+                          "height": "20px",
+                          "left": "0",
+                          "right": "0",
+                          "top": "0",
+                          "width": "20px"
+                        }
+                      },
+                      "__v": 0
+                    },
+                    "childTrees": [],
+                    "__v": 0
+                  },
+                  {
+                    "_id": "617943e8fbdeda83793cf22d",
+                    "title": "label",
+                    "isSubChallenge": false,
+                    "block": {
+                      "_id": "617943e8fbdeda83793cf227",
+                      "tagName": "label",
+                      "isContainer": false,
+                      "property": {
+                        "text": "multipleChoice2",
+                        "htmlFor": "multipleChoice2",
+                        "style": {
+                          "display": "block",
+                          "margin": "0 1rem 0 0.75rem",
+                          "fontFamily": "Roboto, Arial, sans-serif",
+                          "fontSize": "14px",
+                          "fontWeight": "400",
+                          "letterSpacing": ".2px",
+                          "lineHeight": "20px",
+                          "color": "#202124",
+                          "minWidth": "1px"
+                        }
+                      },
+                      "__v": 0
+                    },
+                    "childTrees": [],
+                    "__v": 0
+                  }
+                ],
+                "__v": 0
+              },
+              {
+                "_id": "617943e7fbdeda83793cf208",
+                "title": "multipleChoice3",
+                "isSubChallenge": true,
+                "block": {
+                  "_id": "617943e7fbdeda83793cf202",
+                  "tagName": "div",
+                  "isContainer": true,
+                  "property": {
+                    "style": {
+                      "display": "flex",
+                      "alignItems": "center",
+                      "padding": "0.5em 0.5em 0.5em 0"
+                    }
+                  },
+                  "__v": 0
+                },
+                "childTrees": [
+                  {
+                    "_id": "617943e7fbdeda83793cf217",
+                    "title": "radio",
+                    "isSubChallenge": false,
+                    "block": {
+                      "_id": "617943e7fbdeda83793cf211",
+                      "tagName": "input",
+                      "isContainer": false,
+                      "property": {
+                        "type": "radio",
+                        "id": "multipleChoice3",
+                        "name": "multiple-choice",
+                        "style": {
+                          "bottom": "0",
+                          "height": "20px",
+                          "left": "0",
+                          "right": "0",
+                          "top": "0",
+                          "width": "20px"
+                        }
+                      },
+                      "__v": 0
+                    },
+                    "childTrees": [],
+                    "__v": 0
+                  },
+                  {
+                    "_id": "617943e8fbdeda83793cf229",
+                    "title": "label",
+                    "isSubChallenge": false,
+                    "block": {
+                      "_id": "617943e8fbdeda83793cf223",
+                      "tagName": "label",
+                      "isContainer": false,
+                      "property": {
+                        "text": "기타:",
+                        "htmlFor": "multipleChoice3",
+                        "style": {
+                          "display": "block",
+                          "margin": "0 1rem 0 0.75rem",
+                          "fontFamily": "Roboto, Arial, sans-serif",
+                          "fontSize": "14px",
+                          "fontWeight": "400",
+                          "letterSpacing": ".2px",
+                          "lineHeight": "20px",
+                          "color": "#202124",
+                          "minWidth": "1px"
+                        }
+                      },
+                      "__v": 0
+                    },
+                    "childTrees": [],
+                    "__v": 0
+                  },
+                  {
+                    "_id": "617943e8fbdeda83793cf238",
+                    "title": "otherRadioInputContainer",
+                    "isSubChallenge": false,
+                    "block": {
+                      "_id": "617943e8fbdeda83793cf236",
+                      "tagName": "div",
+                      "isContainer": true,
+                      "property": {
+                        "style": {
+                          "color": "#202124",
+                          "position": "relative",
+                          "flexGrow": "1"
+                        }
+                      },
+                      "__v": 0
+                    },
+                    "childTrees": [
+                      {
+                        "_id": "617943e9fbdeda83793cf23e",
+                        "title": "otherRadioInput",
+                        "isSubChallenge": false,
+                        "block": {
+                          "_id": "617943e8fbdeda83793cf23c",
+                          "tagName": "input",
+                          "isContainer": false,
+                          "property": {
+                            "style": {
+                              "fontFamily": "Roboto, Arial, sans-serif",
+                              "fontSize": "14px",
+                              "fontWeight": "400",
+                              "letterSpacing": ".2px",
+                              "lineHeight": "20px",
+                              "color": "#202124",
+                              "outline": "none",
+                              "border": "none"
+                            }
+                          },
+                          "__v": 0
+                        },
+                        "childTrees": [],
+                        "__v": 0
+                      },
+                      {
+                        "_id": "617943e9fbdeda83793cf244",
+                        "title": "otherRadioBorderLine",
+                        "isSubChallenge": false,
+                        "block": {
+                          "_id": "617943e9fbdeda83793cf242",
+                          "tagName": "div",
+                          "isContainer": false,
+                          "property": {
+                            "style": {
+                              "backgroundColor": "rgba(0,0,0,0.12)",
+                              "height": "1px",
+                              "width": "100%",
+                              "margin": "0",
+                              "padding": "0",
+                              "position": "absolute"
+                            }
+                          },
+                          "__v": 0
+                        },
+                        "childTrees": [],
+                        "__v": 0
+                      }
+                    ],
+                    "__v": 0
+                  }
+                ],
+                "__v": 0
+              }
+            ],
+            "__v": 0
+          }
+        ],
+        "__v": 0
+      },
+      {
+        "_id": "617943e9fbdeda83793cf248",
+        "title": "checkBoxQuestion",
+        "isSubChallenge": true,
+        "block": {
+          "_id": "617943e1fbdeda83793cf196",
+          "tagName": "div",
+          "isContainer": true,
+          "property": {
+            "style": {
+              "backgroundColor": "#fff",
+              "border": "1px solid #dadce0",
+              "borderRadius": "8px",
+              "marginBottom": "12px",
+              "padding": "24px",
+              "wordWrap": "break-word"
+            }
+          },
+          "__v": 0
+        },
+        "childTrees": [
+          {
+            "_id": "617943e9fbdeda83793cf24c",
+            "title": "descriptionContainer",
+            "isSubChallenge": false,
+            "block": {
+              "_id": "617943e1fbdeda83793cf19c",
+              "tagName": "div",
+              "isContainer": false,
+              "property": {
+                "style": {
+                  "marginBottom": "16px"
+                }
+              },
+              "__v": 0
+            },
+            "childTrees": [
+              {
+                "_id": "617943eafbdeda83793cf252",
+                "title": "checkBoxQuestionHeading",
+                "isSubChallenge": false,
+                "block": {
+                  "_id": "617943eafbdeda83793cf250",
+                  "tagName": "h5",
+                  "isContainer": false,
+                  "property": {
+                    "text": "This is a checkbox question",
+                    "style": {
+                      "fontSize": "16px",
+                      "letterSpacing": ".1px",
+                      "lineHeight": "24px",
+                      "color": "#202124",
+                      "fontWeight": "400",
+                      "width": "100%",
+                      "wordBreak": "break-word",
+                      "fontFamily": "'Google Sans', Roboto, Helvetica, Arial, sans-serif"
+                    }
+                  },
+                  "__v": 0
+                },
+                "childTrees": [],
+                "__v": 0
+              },
+              {
+                "_id": "617943eafbdeda83793cf258",
+                "title": "checkBoxQuestionDescription",
+                "isSubChallenge": false,
+                "block": {
+                  "_id": "617943eafbdeda83793cf256",
+                  "tagName": "h5",
+                  "isContainer": false,
+                  "property": {
+                    "text": "Similar to multiple choice; multiple responses available",
+                    "style": {
+                      "fontFamily": "Roboto, Arial, sans-serif",
+                      "fontSize": "12px",
+                      "fontWeight": "400",
+                      "letterSpacing": ".3px",
+                      "color": "#202124",
+                      "lineHeight": "135%",
+                      "marginTop": "4px",
+                      "width": "100%"
+                    }
+                  },
+                  "__v": 0
+                },
+                "childTrees": [],
+                "__v": 0
+              }
+            ],
+            "__v": 0
+          },
+          {
+            "_id": "617943eafbdeda83793cf25c",
+            "title": "checkBoxContainer",
+            "isSubChallenge": true,
+            "block": {
+              "_id": "617943e7fbdeda83793cf1fa",
+              "tagName": "div",
+              "isContainer": true,
+              "property": {
+                "style": {
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "justifyContent": "space-between",
+                  "height": "122px"
+                }
+              },
+              "__v": 0
+            },
+            "childTrees": [
+              {
+                "_id": "617943ebfbdeda83793cf264",
+                "title": "checkBox1",
+                "isSubChallenge": true,
+                "block": {
+                  "_id": "617943e7fbdeda83793cf202",
+                  "tagName": "div",
+                  "isContainer": true,
+                  "property": {
+                    "style": {
+                      "display": "flex",
+                      "alignItems": "center",
+                      "padding": "0.5em 0.5em 0.5em 0"
+                    }
+                  },
+                  "__v": 0
+                },
+                "childTrees": [
+                  {
+                    "_id": "617943ebfbdeda83793cf273",
+                    "title": "checkbox",
+                    "isSubChallenge": false,
+                    "block": {
+                      "_id": "617943ebfbdeda83793cf26d",
+                      "tagName": "input",
+                      "isContainer": false,
+                      "property": {
+                        "type": "checkbox",
+                        "id": "checkBox1",
+                        "style": {
+                          "bottom": "0",
+                          "height": "20px",
+                          "left": "0",
+                          "right": "0",
+                          "top": "0",
+                          "width": "20px"
+                        }
+                      },
+                      "__v": 0
+                    },
+                    "childTrees": [],
+                    "__v": 0
+                  },
+                  {
+                    "_id": "617943ebfbdeda83793cf285",
+                    "title": "label",
+                    "isSubChallenge": false,
+                    "block": {
+                      "_id": "617943ebfbdeda83793cf27d",
+                      "tagName": "label",
+                      "isContainer": false,
+                      "property": {
+                        "text": "checkBox1",
+                        "htmlFor": "checkBox1",
+                        "style": {
+                          "display": "block",
+                          "margin": "0 1rem 0 0.75rem",
+                          "fontFamily": "Roboto, Arial, sans-serif",
+                          "fontSize": "14px",
+                          "fontWeight": "400",
+                          "letterSpacing": ".2px",
+                          "lineHeight": "20px",
+                          "color": "#202124",
+                          "minWidth": "1px"
+                        }
+                      },
+                      "__v": 0
+                    },
+                    "childTrees": [],
+                    "__v": 0
+                  }
+                ],
+                "__v": 0
+              },
+              {
+                "_id": "617943ebfbdeda83793cf266",
+                "title": "checkBox2",
+                "isSubChallenge": true,
+                "block": {
+                  "_id": "617943e7fbdeda83793cf202",
+                  "tagName": "div",
+                  "isContainer": true,
+                  "property": {
+                    "style": {
+                      "display": "flex",
+                      "alignItems": "center",
+                      "padding": "0.5em 0.5em 0.5em 0"
+                    }
+                  },
+                  "__v": 0
+                },
+                "childTrees": [
+                  {
+                    "_id": "617943ebfbdeda83793cf271",
+                    "title": "checkbox",
+                    "isSubChallenge": false,
+                    "block": {
+                      "_id": "617943ebfbdeda83793cf26b",
+                      "tagName": "input",
+                      "isContainer": false,
+                      "property": {
+                        "type": "checkbox",
+                        "id": "checkBox2",
+                        "style": {
+                          "bottom": "0",
+                          "height": "20px",
+                          "left": "0",
+                          "right": "0",
+                          "top": "0",
+                          "width": "20px"
+                        }
+                      },
+                      "__v": 0
+                    },
+                    "childTrees": [],
+                    "__v": 0
+                  },
+                  {
+                    "_id": "617943ebfbdeda83793cf283",
+                    "title": "label",
+                    "isSubChallenge": false,
+                    "block": {
+                      "_id": "617943ebfbdeda83793cf27f",
+                      "tagName": "label",
+                      "isContainer": false,
+                      "property": {
+                        "text": "checkBox2",
+                        "htmlFor": "checkBox2",
+                        "style": {
+                          "display": "block",
+                          "margin": "0 1rem 0 0.75rem",
+                          "fontFamily": "Roboto, Arial, sans-serif",
+                          "fontSize": "14px",
+                          "fontWeight": "400",
+                          "letterSpacing": ".2px",
+                          "lineHeight": "20px",
+                          "color": "#202124",
+                          "minWidth": "1px"
+                        }
+                      },
+                      "__v": 0
+                    },
+                    "childTrees": [],
+                    "__v": 0
+                  }
+                ],
+                "__v": 0
+              },
+              {
+                "_id": "617943ebfbdeda83793cf262",
+                "title": "checkBox3",
+                "isSubChallenge": true,
+                "block": {
+                  "_id": "617943e7fbdeda83793cf202",
+                  "tagName": "div",
+                  "isContainer": true,
+                  "property": {
+                    "style": {
+                      "display": "flex",
+                      "alignItems": "center",
+                      "padding": "0.5em 0.5em 0.5em 0"
+                    }
+                  },
+                  "__v": 0
+                },
+                "childTrees": [
+                  {
+                    "_id": "617943ebfbdeda83793cf275",
+                    "title": "checkbox",
+                    "isSubChallenge": false,
+                    "block": {
+                      "_id": "617943ebfbdeda83793cf26f",
+                      "tagName": "input",
+                      "isContainer": false,
+                      "property": {
+                        "type": "checkbox",
+                        "id": "checkBox3",
+                        "style": {
+                          "bottom": "0",
+                          "height": "20px",
+                          "left": "0",
+                          "right": "0",
+                          "top": "0",
+                          "width": "20px"
+                        }
+                      },
+                      "__v": 0
+                    },
+                    "childTrees": [],
+                    "__v": 0
+                  },
+                  {
+                    "_id": "617943ebfbdeda83793cf287",
+                    "title": "label",
+                    "isSubChallenge": false,
+                    "block": {
+                      "_id": "617943ebfbdeda83793cf281",
+                      "tagName": "label",
+                      "isContainer": false,
+                      "property": {
+                        "text": "기타:",
+                        "htmlFor": "checkBox3",
+                        "style": {
+                          "display": "block",
+                          "margin": "0 1rem 0 0.75rem",
+                          "fontFamily": "Roboto, Arial, sans-serif",
+                          "fontSize": "14px",
+                          "fontWeight": "400",
+                          "letterSpacing": ".2px",
+                          "lineHeight": "20px",
+                          "color": "#202124",
+                          "minWidth": "1px"
+                        }
+                      },
+                      "__v": 0
+                    },
+                    "childTrees": [],
+                    "__v": 0
+                  },
+                  {
+                    "_id": "617943ecfbdeda83793cf290",
+                    "title": "otherCheckBoxContainer",
+                    "isSubChallenge": false,
+                    "block": {
+                      "_id": "617943e8fbdeda83793cf236",
+                      "tagName": "div",
+                      "isContainer": true,
+                      "property": {
+                        "style": {
+                          "color": "#202124",
+                          "position": "relative",
+                          "flexGrow": "1"
+                        }
+                      },
+                      "__v": 0
+                    },
+                    "childTrees": [
+                      {
+                        "_id": "617943ecfbdeda83793cf294",
+                        "title": "otherCheckBox",
+                        "isSubChallenge": false,
+                        "block": {
+                          "_id": "617943e8fbdeda83793cf23c",
+                          "tagName": "input",
+                          "isContainer": false,
+                          "property": {
+                            "style": {
+                              "fontFamily": "Roboto, Arial, sans-serif",
+                              "fontSize": "14px",
+                              "fontWeight": "400",
+                              "letterSpacing": ".2px",
+                              "lineHeight": "20px",
+                              "color": "#202124",
+                              "outline": "none",
+                              "border": "none"
+                            }
+                          },
+                          "__v": 0
+                        },
+                        "childTrees": [],
+                        "__v": 0
+                      },
+                      {
+                        "_id": "617943ecfbdeda83793cf298",
+                        "title": "otherCheckBoxBorderLine",
+                        "isSubChallenge": false,
+                        "block": {
+                          "_id": "617943e9fbdeda83793cf242",
+                          "tagName": "div",
+                          "isContainer": false,
+                          "property": {
+                            "style": {
+                              "backgroundColor": "rgba(0,0,0,0.12)",
+                              "height": "1px",
+                              "width": "100%",
+                              "margin": "0",
+                              "padding": "0",
+                              "position": "absolute"
+                            }
+                          },
+                          "__v": 0
+                        },
+                        "childTrees": [],
+                        "__v": 0
+                      }
+                    ],
+                    "__v": 0
+                  }
+                ],
+                "__v": 0
+              }
+            ],
+            "__v": 0
+          }
+        ],
+        "__v": 0
+      },
+      {
+        "_id": "617943edfbdeda83793cf29c",
+        "title": "listQuestion",
+        "isSubChallenge": true,
+        "block": {
+          "_id": "617943e1fbdeda83793cf196",
+          "tagName": "div",
+          "isContainer": true,
+          "property": {
+            "style": {
+              "backgroundColor": "#fff",
+              "border": "1px solid #dadce0",
+              "borderRadius": "8px",
+              "marginBottom": "12px",
+              "padding": "24px",
+              "wordWrap": "break-word"
+            }
+          },
+          "__v": 0
+        },
+        "childTrees": [
+          {
+            "_id": "617943edfbdeda83793cf2a0",
+            "title": "descriptionContainer",
+            "isSubChallenge": false,
+            "block": {
+              "_id": "617943e1fbdeda83793cf19c",
+              "tagName": "div",
+              "isContainer": false,
+              "property": {
+                "style": {
+                  "marginBottom": "16px"
+                }
+              },
+              "__v": 0
+            },
+            "childTrees": [
+              {
+                "_id": "617943edfbdeda83793cf2a6",
+                "title": "listQuestionHeading",
+                "isSubChallenge": false,
+                "block": {
+                  "_id": "617943edfbdeda83793cf2a4",
+                  "tagName": "h5",
+                  "isContainer": false,
+                  "property": {
+                    "text": "This is a choose from a list question",
+                    "style": {
+                      "fontSize": "16px",
+                      "letterSpacing": ".1px",
+                      "lineHeight": "24px",
+                      "color": "#202124",
+                      "fontWeight": "400",
+                      "width": "100%",
+                      "wordBreak": "break-word",
+                      "fontFamily": "'Google Sans', Roboto, Helvetica, Arial, sans-serif"
+                    }
+                  },
+                  "__v": 0
+                },
+                "childTrees": [],
+                "__v": 0
+              },
+              {
+                "_id": "617943eefbdeda83793cf2ac",
+                "title": "listQuestionDescription",
+                "isSubChallenge": false,
+                "block": {
+                  "_id": "617943eefbdeda83793cf2aa",
+                  "tagName": "h5",
+                  "isContainer": false,
+                  "property": {
+                    "text": "Drop down menu format",
+                    "style": {
+                      "fontFamily": "Roboto, Arial, sans-serif",
+                      "fontSize": "12px",
+                      "fontWeight": "400",
+                      "letterSpacing": ".3px",
+                      "color": "#202124",
+                      "lineHeight": "135%",
+                      "marginTop": "4px",
+                      "width": "100%"
+                    }
+                  },
+                  "__v": 0
+                },
+                "childTrees": [],
+                "__v": 0
+              }
+            ],
+            "__v": 0
+          },
+          {
+            "_id": "617943eefbdeda83793cf2b2",
+            "title": "selectContainer",
+            "isSubChallenge": true,
+            "block": {
+              "_id": "617943eefbdeda83793cf2b0",
+              "tagName": "div",
+              "isContainer": true,
+              "property": {
+                "style": {
+                  "width": "176px"
+                }
+              },
+              "__v": 0
+            },
+            "childTrees": [
+              {
+                "_id": "617943effbdeda83793cf2b8",
+                "title": "select",
+                "isSubChallenge": false,
+                "block": {
+                  "_id": "617943effbdeda83793cf2b6",
+                  "tagName": "select",
+                  "isContainer": true,
+                  "property": {
+                    "style": {
+                      "WebkitAppearance": "none",
+                      "border": "1px solid #dadce0",
+                      "borderRadius": "4px",
+                      "marginTop": "8px",
+                      "color": "#0000008A",
+                      "fontWeight": "400",
+                      "letterSpacing": ".2px",
+                      "padding": "8px 48px 8px 16px",
+                      "lineHeight": "32px",
+                      "width": "100%",
+                      "outline": "none"
+                    }
+                  },
+                  "__v": 0
+                },
+                "childTrees": [
+                  {
+                    "_id": "617943effbdeda83793cf2cd",
+                    "title": "선택",
+                    "isSubChallenge": false,
+                    "block": {
+                      "_id": "617943effbdeda83793cf2c3",
+                      "tagName": "option",
+                      "isContainer": false,
+                      "property": {
+                        "value": "선택",
+                        "text": "선택",
+                        "style": {
+                          "color": "#808080"
+                        }
+                      },
+                      "__v": 0
+                    },
+                    "childTrees": [],
+                    "__v": 0
+                  },
+                  {
+                    "_id": "617943effbdeda83793cf2cb",
+                    "title": "selectChoice1",
+                    "isSubChallenge": false,
+                    "block": {
+                      "_id": "617943effbdeda83793cf2c5",
+                      "tagName": "option",
+                      "isContainer": false,
+                      "property": {
+                        "value": "selectChoice1",
+                        "text": "selectChoice1",
+                        "style": {
+                          "color": "#808080"
+                        }
+                      },
+                      "__v": 0
+                    },
+                    "childTrees": [],
+                    "__v": 0
+                  },
+                  {
+                    "_id": "617943effbdeda83793cf2c9",
+                    "title": "selectChoice2",
+                    "isSubChallenge": false,
+                    "block": {
+                      "_id": "617943effbdeda83793cf2c1",
+                      "tagName": "option",
+                      "isContainer": false,
+                      "property": {
+                        "value": "selectChoice2",
+                        "text": "selectChoice2",
+                        "style": {
+                          "color": "#808080"
+                        }
+                      },
+                      "__v": 0
+                    },
+                    "childTrees": [],
+                    "__v": 0
+                  },
+                  {
+                    "_id": "617943effbdeda83793cf2c7",
+                    "title": "selectChoice3",
+                    "isSubChallenge": false,
+                    "block": {
+                      "_id": "617943effbdeda83793cf2bf",
+                      "tagName": "option",
+                      "isContainer": false,
+                      "property": {
+                        "value": "selectChoice3",
+                        "text": "selectChoice3",
+                        "style": {
+                          "color": "#808080"
+                        }
+                      },
+                      "__v": 0
+                    },
+                    "childTrees": [],
+                    "__v": 0
+                  }
+                ],
+                "__v": 0
+              }
+            ],
+            "__v": 0
+          }
+        ],
+        "__v": 0
+      },
+      {
+        "_id": "617943f0fbdeda83793cf2d6",
+        "title": "submitButton",
+        "isSubChallenge": false,
+        "block": {
+          "_id": "617943f0fbdeda83793cf2d4",
+          "tagName": "button",
+          "isContainer": false,
+          "property": {
+            "text": "제출",
+            "type": "button",
+            "style": {
+              "alignItems": "center",
+              "backgroundColor": "rgb(119, 119, 119)",
+              "borderRadius": "4px",
+              "border": "none",
+              "color": "#fff",
+              "display": "flex",
+              "fontFamily": "'Google Sans', Roboto,Arial, sans-serif",
+              "fontSize": "14px",
+              "fontWeight": "500",
+              "letterSpacing": ".25px",
+              "lineHeight": "36px",
+              "padding": "0 24px",
+              "position": "relative"
+            }
+          },
+          "__v": 0
+        },
+        "childTrees": [],
+        "__v": 0
+      }
+    ],
+    "__v": 0
+  },
+  "__v": 0
+}

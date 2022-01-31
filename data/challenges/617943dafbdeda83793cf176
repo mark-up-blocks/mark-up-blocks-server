@@ -1,0 +1,773 @@
+{
+  "_id": "617943dafbdeda83793cf176",
+  "name": "google",
+  "elementTree": {
+    "_id": "617943d0fbdeda83793cf0b0",
+    "title": "layout",
+    "isSubChallenge": true,
+    "block": {
+      "_id": "617943d0fbdeda83793cf0ae",
+      "tagName": "div",
+      "isContainer": true,
+      "property": {
+        "style": {
+          "display": "flex",
+          "flexDirection": "column",
+          "justifyContent": "space-between",
+          "height": "100%",
+          "width": "100%"
+        }
+      },
+      "__v": 0
+    },
+    "childTrees": [
+      {
+        "_id": "617943d0fbdeda83793cf0b5",
+        "title": "header",
+        "isSubChallenge": true,
+        "block": {
+          "_id": "617943d0fbdeda83793cf0b3",
+          "tagName": "header",
+          "isContainer": true,
+          "property": {
+            "style": {
+              "width": "100%"
+            }
+          },
+          "__v": 0
+        },
+        "childTrees": [
+          {
+            "_id": "617943d1fbdeda83793cf0ba",
+            "title": "nav",
+            "isSubChallenge": true,
+            "block": {
+              "_id": "617943d0fbdeda83793cf0b8",
+              "tagName": "nav",
+              "isContainer": true,
+              "property": {
+                "style": {
+                  "display": "flex",
+                  "padding": "6px",
+                  "justifyContent": "flex-end"
+                }
+              },
+              "__v": 0
+            },
+            "childTrees": [
+              {
+                "_id": "617943d1fbdeda83793cf0c0",
+                "title": "menu",
+                "isSubChallenge": true,
+                "block": {
+                  "_id": "617943d1fbdeda83793cf0be",
+                  "tagName": "div",
+                  "isContainer": true,
+                  "property": {
+                    "style": {
+                      "display": "flex",
+                      "font": "13px/27px arial, sans-serif",
+                      "color": "rgba(0, 0, 0, 0.87)",
+                      "justifyContent": "flex-center",
+                      "alignItems": "center"
+                    }
+                  },
+                  "__v": 0
+                },
+                "childTrees": [
+                  {
+                    "_id": "617943d2fbdeda83793cf0d2",
+                    "title": "gmail",
+                    "isSubChallenge": false,
+                    "block": {
+                      "_id": "617943d2fbdeda83793cf0d0",
+                      "tagName": "a",
+                      "isContainer": false,
+                      "property": {
+                        "text": "Gmail",
+                        "style": {
+                          "paddingLeft": "15px",
+                          "cursor": "pointer"
+                        }
+                      },
+                      "__v": 0
+                    },
+                    "childTrees": [],
+                    "__v": 0
+                  },
+                  {
+                    "_id": "617943d2fbdeda83793cf0d8",
+                    "title": "imageSearch",
+                    "isSubChallenge": false,
+                    "block": {
+                      "_id": "617943d2fbdeda83793cf0d6",
+                      "tagName": "a",
+                      "isContainer": false,
+                      "property": {
+                        "text": "이미지",
+                        "style": {
+                          "padding": "0 15px",
+                          "cursor": "pointer"
+                        }
+                      },
+                      "__v": 0
+                    },
+                    "childTrees": [],
+                    "__v": 0
+                  }
+                ],
+                "__v": 0
+              },
+              {
+                "_id": "617943d1fbdeda83793cf0c6",
+                "title": "candyBoxLink",
+                "isSubChallenge": false,
+                "block": {
+                  "_id": "617943d1fbdeda83793cf0c4",
+                  "tagName": "a",
+                  "isContainer": true,
+                  "property": {
+                    "style": {
+                      "boxSizing": "border-box",
+                      "width": "40px",
+                      "height": "40px",
+                      "padding": "8px",
+                      "borderRadius": "50%",
+                      "outline": "none",
+                      "cursor": "pointer"
+                    }
+                  },
+                  "__v": 0
+                },
+                "childTrees": [
+                  {
+                    "_id": "617943d3fbdeda83793cf0de",
+                    "title": "candyBox",
+                    "isSubChallenge": false,
+                    "block": {
+                      "_id": "617943d3fbdeda83793cf0dc",
+                      "tagName": "svg",
+                      "isContainer": false,
+                      "property": {
+                        "viewBox": "0 0 24 24",
+                        "style": {
+                          "boxSizing": "border-box",
+                          "width": "24px",
+                          "height": "24px"
+                        }
+                      },
+                      "__v": 0
+                    },
+                    "childTrees": [
+                      {
+                        "_id": "617943d3fbdeda83793cf0e4",
+                        "title": "candyBoxPath",
+                        "isSubChallenge": false,
+                        "block": {
+                          "_id": "617943d3fbdeda83793cf0e2",
+                          "tagName": "path",
+                          "isContainer": false,
+                          "property": {
+                            "text": "",
+                            "d": "M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z",
+                            "style": {
+                              "fill": "#5f6368"
+                            }
+                          },
+                          "__v": 0
+                        },
+                        "childTrees": [],
+                        "__v": 0
+                      }
+                    ],
+                    "__v": 0
+                  }
+                ],
+                "__v": 0
+              },
+              {
+                "_id": "617943d2fbdeda83793cf0cc",
+                "title": "loginButton",
+                "isSubChallenge": false,
+                "block": {
+                  "_id": "617943d1fbdeda83793cf0ca",
+                  "tagName": "button",
+                  "isContainer": false,
+                  "property": {
+                    "text": "로그인",
+                    "style": {
+                      "backgroundColor": "#1a73e8",
+                      "border": "1px solid transparent",
+                      "borderRadius": "4px",
+                      "boxSizing": "border-box",
+                      "color": "#fff",
+                      "cursor": "pointer",
+                      "display": "inline-block",
+                      "font": "500 14px 'Google Sans', 'Roboto', 'RobotoDraft', 'Helvetica', 'Arial', sans-serif",
+                      "padding": "9px 23px",
+                      "lineHeight": "16px",
+                      "width": "96px",
+                      "textAlign": "center",
+                      "margin": "0 8px"
+                    }
+                  },
+                  "__v": 0
+                },
+                "childTrees": [],
+                "__v": 0
+              }
+            ],
+            "__v": 0
+          }
+        ],
+        "__v": 0
+      },
+      {
+        "_id": "617943d3fbdeda83793cf0ea",
+        "title": "main",
+        "isSubChallenge": true,
+        "block": {
+          "_id": "617943d3fbdeda83793cf0e8",
+          "tagName": "main",
+          "isContainer": true,
+          "property": {
+            "style": {
+              "width": "100%"
+            }
+          },
+          "__v": 0
+        },
+        "childTrees": [
+          {
+            "_id": "617943d4fbdeda83793cf0ef",
+            "title": "logoContainer",
+            "isSubChallenge": true,
+            "block": {
+              "_id": "617943d3fbdeda83793cf0ed",
+              "tagName": "div",
+              "isContainer": true,
+              "property": {
+                "style": {
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "alignItems": "center"
+                }
+              },
+              "__v": 0
+            },
+            "childTrees": [
+              {
+                "_id": "617943d4fbdeda83793cf0f5",
+                "title": "logo",
+                "isSubChallenge": false,
+                "block": {
+                  "_id": "617943d4fbdeda83793cf0f3",
+                  "tagName": "img",
+                  "isContainer": false,
+                  "property": {
+                    "text": "",
+                    "alt": "logo",
+                    "src": "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png",
+                    "style": {
+                      "minHeight": "92px",
+                      "maxHeight": "290px",
+                      "marginTop": "auto"
+                    }
+                  },
+                  "__v": 0
+                },
+                "childTrees": [],
+                "__v": 0
+              }
+            ],
+            "__v": 0
+          },
+          {
+            "_id": "617943d4fbdeda83793cf0fb",
+            "title": "searchForm",
+            "isSubChallenge": true,
+            "block": {
+              "_id": "617943d4fbdeda83793cf0f9",
+              "tagName": "form",
+              "isContainer": true,
+              "property": {
+                "style": {
+                  "padding": "20px"
+                }
+              },
+              "__v": 0
+            },
+            "childTrees": [
+              {
+                "_id": "617943d5fbdeda83793cf101",
+                "title": "searchBar",
+                "isSubChallenge": false,
+                "block": {
+                  "_id": "617943d5fbdeda83793cf0ff",
+                  "tagName": "div",
+                  "isContainer": true,
+                  "property": {
+                    "style": {
+                      "background": "#fff",
+                      "border": "1px solid #dfe1e5",
+                      "borderRadius": "24px",
+                      "height": "46px",
+                      "margin": "0 auto",
+                      "maxWidth": "584px",
+                      "padding": "0 8px 0 14px",
+                      "display": "flex",
+                      "justifyContent": "center",
+                      "alignItems": "center"
+                    }
+                  },
+                  "__v": 0
+                },
+                "childTrees": [
+                  {
+                    "_id": "617943d5fbdeda83793cf107",
+                    "title": "searchIcon",
+                    "isSubChallenge": false,
+                    "block": {
+                      "_id": "617943d5fbdeda83793cf105",
+                      "tagName": "svg",
+                      "isContainer": false,
+                      "property": {
+                        "viewBox": "0 0 24 24",
+                        "style": {
+                          "fill": "#9aa0a6",
+                          "height": "20px",
+                          "width": "20px",
+                          "paddingRight": "13px"
+                        }
+                      },
+                      "__v": 0
+                    },
+                    "childTrees": [
+                      {
+                        "_id": "617943d5fbdeda83793cf10d",
+                        "title": "searchIconPath",
+                        "isSubChallenge": false,
+                        "block": {
+                          "_id": "617943d5fbdeda83793cf10b",
+                          "tagName": "path",
+                          "isContainer": false,
+                          "property": {
+                            "text": "",
+                            "d": "M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+                          },
+                          "__v": 0
+                        },
+                        "childTrees": [],
+                        "__v": 0
+                      }
+                    ],
+                    "__v": 0
+                  },
+                  {
+                    "_id": "617943d6fbdeda83793cf113",
+                    "title": "searchInput",
+                    "isSubChallenge": false,
+                    "block": {
+                      "_id": "617943d6fbdeda83793cf111",
+                      "tagName": "input",
+                      "isContainer": false,
+                      "property": {
+                        "text": "",
+                        "style": {
+                          "backgroundColor": "transparent",
+                          "border": "none",
+                          "color": "rgba(0,0,0,.87)",
+                          "flexBasis": "100%",
+                          "fontSize": "16px",
+                          "height": "34px",
+                          "margin": "0",
+                          "outline": "none",
+                          "padding": "0"
+                        }
+                      },
+                      "__v": 0
+                    },
+                    "childTrees": [],
+                    "__v": 0
+                  },
+                  {
+                    "_id": "617943d6fbdeda83793cf119",
+                    "title": "typingLogo",
+                    "isSubChallenge": false,
+                    "block": {
+                      "_id": "617943d6fbdeda83793cf117",
+                      "tagName": "img",
+                      "isContainer": false,
+                      "property": {
+                        "text": "",
+                        "alt": "입력도구",
+                        "src": "https://www.gstatic.com/inputtools/images/tia.png",
+                        "style": {
+                          "padding": "0 8px"
+                        }
+                      },
+                      "__v": 0
+                    },
+                    "childTrees": [],
+                    "__v": 0
+                  }
+                ],
+                "__v": 0
+              },
+              {
+                "_id": "617943d6fbdeda83793cf11f",
+                "title": "buttonContainer",
+                "isSubChallenge": false,
+                "block": {
+                  "_id": "617943d6fbdeda83793cf11d",
+                  "tagName": "div",
+                  "isContainer": true,
+                  "property": {
+                    "style": {
+                      "display": "flex",
+                      "paddingTop": "18px",
+                      "justifyContent": "center"
+                    }
+                  },
+                  "__v": 0
+                },
+                "childTrees": [
+                  {
+                    "_id": "617943d7fbdeda83793cf125",
+                    "title": "searchButton",
+                    "isSubChallenge": false,
+                    "block": {
+                      "_id": "617943d7fbdeda83793cf123",
+                      "tagName": "button",
+                      "isContainer": false,
+                      "property": {
+                        "text": "Google 검색",
+                        "type": "button",
+                        "style": {
+                          "backgroundColor": "#f8f9fa",
+                          "border": "1px solid #f8f9fa",
+                          "borderRadius": "4px",
+                          "color": "#3c4043",
+                          "cursor": "pointer",
+                          "fontFamily": "'Apple SD Gothic Neo',arial,sans-serif",
+                          "fontSize": "14px",
+                          "height": "36px",
+                          "lineHeight": "27px",
+                          "margin": "11px 4px",
+                          "minWidth": "54px",
+                          "padding": "0 16px",
+                          "textAlign": "center"
+                        }
+                      },
+                      "__v": 0
+                    },
+                    "childTrees": [],
+                    "__v": 0
+                  },
+                  {
+                    "_id": "617943d7fbdeda83793cf12b",
+                    "title": "luckyButton",
+                    "isSubChallenge": false,
+                    "block": {
+                      "_id": "617943d7fbdeda83793cf129",
+                      "tagName": "button",
+                      "isContainer": false,
+                      "property": {
+                        "text": "I’m Feeling Lucky",
+                        "type": "button",
+                        "style": {
+                          "backgroundColor": "#f8f9fa",
+                          "border": "1px solid #f8f9fa",
+                          "borderRadius": "4px",
+                          "color": "#3c4043",
+                          "cursor": "pointer",
+                          "fontFamily": "'Apple SD Gothic Neo',arial,sans-serif",
+                          "fontSize": "14px",
+                          "height": "36px",
+                          "lineHeight": "27px",
+                          "margin": "11px 4px",
+                          "minWidth": "54px",
+                          "padding": "0 16px",
+                          "textAlign": "center"
+                        }
+                      },
+                      "__v": 0
+                    },
+                    "childTrees": [],
+                    "__v": 0
+                  }
+                ],
+                "__v": 0
+              }
+            ],
+            "__v": 0
+          }
+        ],
+        "__v": 0
+      },
+      {
+        "_id": "617943d7fbdeda83793cf131",
+        "title": "footer",
+        "isSubChallenge": true,
+        "block": {
+          "_id": "617943d7fbdeda83793cf12f",
+          "tagName": "footer",
+          "isContainer": true,
+          "property": {
+            "style": {
+              "backgroundColor": "#f2f2f2"
+            }
+          },
+          "__v": 0
+        },
+        "childTrees": [
+          {
+            "_id": "617943d8fbdeda83793cf136",
+            "title": "footer/location",
+            "isSubChallenge": false,
+            "block": {
+              "_id": "617943d8fbdeda83793cf134",
+              "tagName": "div",
+              "isContainer": false,
+              "property": {
+                "text": "대한민국",
+                "style": {
+                  "padding": "15px 30px",
+                  "borderBottom": "1px solid #dadce0",
+                  "fontSize": "15px",
+                  "color": "rgba(0, 0, 0, .54)",
+                  "fontFamily": "arial, sans-serif"
+                }
+              },
+              "__v": 0
+            },
+            "childTrees": [],
+            "__v": 0
+          },
+          {
+            "_id": "617943d8fbdeda83793cf13b",
+            "title": "footer/clauses",
+            "isSubChallenge": true,
+            "block": {
+              "_id": "617943d8fbdeda83793cf139",
+              "tagName": "div",
+              "isContainer": true,
+              "property": {
+                "style": {
+                  "display": "flex",
+                  "justifyContent": "space-evenly",
+                  "flexWrap": "wrap",
+                  "padding": "0 20px",
+                  "color": "#222",
+                  "fontSize": "14px",
+                  "fontFamily": "Apple SD Gothic Neo, arial,sans-serif"
+                }
+              },
+              "__v": 0
+            },
+            "childTrees": [
+              {
+                "_id": "617943d8fbdeda83793cf140",
+                "title": "info",
+                "isSubChallenge": false,
+                "block": {
+                  "_id": "617943d8fbdeda83793cf13e",
+                  "tagName": "div",
+                  "isContainer": true,
+                  "property": {
+                    "style": {
+                      "display": "flex",
+                      "justifyContent": "space-evenly"
+                    }
+                  },
+                  "__v": 0
+                },
+                "childTrees": [
+                  {
+                    "_id": "617943d8fbdeda83793cf151",
+                    "title": "Google 정보",
+                    "isSubChallenge": false,
+                    "block": {
+                      "_id": "617943d8fbdeda83793cf149",
+                      "tagName": "a",
+                      "isContainer": false,
+                      "property": {
+                        "text": "Google 정보",
+                        "style": {
+                          "padding": "15px",
+                          "color": "#70757a",
+                          "textDecoration": "none",
+                          "cursor": "pointer"
+                        }
+                      },
+                      "__v": 0
+                    },
+                    "childTrees": [],
+                    "__v": 0
+                  },
+                  {
+                    "_id": "617943d8fbdeda83793cf153",
+                    "title": "광고",
+                    "isSubChallenge": false,
+                    "block": {
+                      "_id": "617943d8fbdeda83793cf14b",
+                      "tagName": "a",
+                      "isContainer": false,
+                      "property": {
+                        "text": "광고",
+                        "style": {
+                          "padding": "15px",
+                          "color": "#70757a",
+                          "textDecoration": "none",
+                          "cursor": "pointer"
+                        }
+                      },
+                      "__v": 0
+                    },
+                    "childTrees": [],
+                    "__v": 0
+                  },
+                  {
+                    "_id": "617943d8fbdeda83793cf14f",
+                    "title": "비즈니스",
+                    "isSubChallenge": false,
+                    "block": {
+                      "_id": "617943d8fbdeda83793cf147",
+                      "tagName": "a",
+                      "isContainer": false,
+                      "property": {
+                        "text": "비즈니스",
+                        "style": {
+                          "padding": "15px",
+                          "color": "#70757a",
+                          "textDecoration": "none",
+                          "cursor": "pointer"
+                        }
+                      },
+                      "__v": 0
+                    },
+                    "childTrees": [],
+                    "__v": 0
+                  },
+                  {
+                    "_id": "617943d8fbdeda83793cf155",
+                    "title": "검색의 원리",
+                    "isSubChallenge": false,
+                    "block": {
+                      "_id": "617943d8fbdeda83793cf14d",
+                      "tagName": "a",
+                      "isContainer": false,
+                      "property": {
+                        "text": "검색의 원리",
+                        "style": {
+                          "padding": "15px",
+                          "color": "#70757a",
+                          "textDecoration": "none",
+                          "cursor": "pointer"
+                        }
+                      },
+                      "__v": 0
+                    },
+                    "childTrees": [],
+                    "__v": 0
+                  }
+                ],
+                "__v": 0
+              },
+              {
+                "_id": "617943d9fbdeda83793cf15c",
+                "title": "clause",
+                "isSubChallenge": false,
+                "block": {
+                  "_id": "617943d8fbdeda83793cf13e",
+                  "tagName": "div",
+                  "isContainer": true,
+                  "property": {
+                    "style": {
+                      "display": "flex",
+                      "justifyContent": "space-evenly"
+                    }
+                  },
+                  "__v": 0
+                },
+                "childTrees": [
+                  {
+                    "_id": "617943d9fbdeda83793cf168",
+                    "title": "개인정보처리방침",
+                    "isSubChallenge": false,
+                    "block": {
+                      "_id": "617943d9fbdeda83793cf162",
+                      "tagName": "a",
+                      "isContainer": false,
+                      "property": {
+                        "text": "개인정보처리방침",
+                        "style": {
+                          "padding": "15px",
+                          "color": "#70757a",
+                          "textDecoration": "none",
+                          "cursor": "pointer"
+                        }
+                      },
+                      "__v": 0
+                    },
+                    "childTrees": [],
+                    "__v": 0
+                  },
+                  {
+                    "_id": "617943d9fbdeda83793cf16c",
+                    "title": "약관",
+                    "isSubChallenge": false,
+                    "block": {
+                      "_id": "617943d9fbdeda83793cf164",
+                      "tagName": "a",
+                      "isContainer": false,
+                      "property": {
+                        "text": "약관",
+                        "style": {
+                          "padding": "15px",
+                          "color": "#70757a",
+                          "textDecoration": "none",
+                          "cursor": "pointer"
+                        }
+                      },
+                      "__v": 0
+                    },
+                    "childTrees": [],
+                    "__v": 0
+                  },
+                  {
+                    "_id": "617943d9fbdeda83793cf16a",
+                    "title": "설정",
+                    "isSubChallenge": false,
+                    "block": {
+                      "_id": "617943d9fbdeda83793cf166",
+                      "tagName": "a",
+                      "isContainer": false,
+                      "property": {
+                        "text": "설정",
+                        "style": {
+                          "padding": "15px",
+                          "color": "#70757a",
+                          "textDecoration": "none",
+                          "cursor": "pointer"
+                        }
+                      },
+                      "__v": 0
+                    },
+                    "childTrees": [],
+                    "__v": 0
+                  }
+                ],
+                "__v": 0
+              }
+            ],
+            "__v": 0
+          }
+        ],
+        "__v": 0
+      }
+    ],
+    "__v": 0
+  },
+  "__v": 0
+}
