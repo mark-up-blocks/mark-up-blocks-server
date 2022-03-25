@@ -515,6 +515,7 @@
           "isContainer": true,
           "property": {
             "style": {
+              "width": "100%",
               "backgroundColor": "#f2f2f2"
             }
           },
