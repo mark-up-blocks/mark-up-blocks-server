@@ -555,6 +555,7 @@
               "isContainer": true,
               "property": {
                 "style": {
+                  "width": "100%",
                   "display": "flex",
                   "justifyContent": "space-evenly",
                   "flexWrap": "wrap",
